@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54EA7C423EA75F9004C56A5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EA7C023EA75F9004C56A5 /* CardView.swift */; };
+		A54EA7C523EA75F9004C56A5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EA7C123EA75F9004C56A5 /* CustomButton.swift */; };
+		A54EA7C623EA75F9004C56A5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EA7C223EA75F9004C56A5 /* CustomTextField.swift */; };
+		A54EA7C723EA75F9004C56A5 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EA7C323EA75F9004C56A5 /* CustomImage.swift */; };
 		A5605CB423EA673F00E5BE7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CB323EA673F00E5BE7A /* AppDelegate.swift */; };
 		A5605CB623EA673F00E5BE7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CB523EA673F00E5BE7A /* SceneDelegate.swift */; };
-		A5605CB823EA673F00E5BE7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CB723EA673F00E5BE7A /* ViewController.swift */; };
 		A5605CBB23EA673F00E5BE7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5605CB923EA673F00E5BE7A /* Main.storyboard */; };
 		A5605CBD23EA674300E5BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5605CBC23EA674300E5BE7A /* Assets.xcassets */; };
 		A5605CC023EA674300E5BE7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5605CBE23EA674300E5BE7A /* LaunchScreen.storyboard */; };
+		A5605CC823EA679900E5BE7A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A5605CC723EA679900E5BE7A /* data.json */; };
+		A5605CCA23EA67F100E5BE7A /* BookListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CC923EA67F100E5BE7A /* BookListVC.swift */; };
+		A5605CCC23EA681000E5BE7A /* BookListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CCB23EA681000E5BE7A /* BookListCVC.swift */; };
+		A5605CCE23EA683400E5BE7A /* BookInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5605CCD23EA683400E5BE7A /* BookInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A54EA7C023EA75F9004C56A5 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A54EA7C123EA75F9004C56A5 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A54EA7C223EA75F9004C56A5 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A54EA7C323EA75F9004C56A5 /* CustomImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		A5605CB023EA673F00E5BE7A /* BookList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5605CB323EA673F00E5BE7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5605CB523EA673F00E5BE7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5605CB723EA673F00E5BE7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5605CBA23EA673F00E5BE7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5605CBC23EA674300E5BE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5605CBF23EA674300E5BE7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5605CC123EA674300E5BE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5605CC723EA679900E5BE7A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A5605CC923EA67F100E5BE7A /* BookListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListVC.swift; sourceTree = "<group>"; };
+		A5605CCB23EA681000E5BE7A /* BookListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListCVC.swift; sourceTree = "<group>"; };
+		A5605CCD23EA683400E5BE7A /* BookInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54EA7BF23EA75F9004C56A5 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A54EA7C023EA75F9004C56A5 /* CardView.swift */,
+				A54EA7C123EA75F9004C56A5 /* CustomButton.swift */,
+				A54EA7C223EA75F9004C56A5 /* CustomTextField.swift */,
+				A54EA7C323EA75F9004C56A5 /* CustomImage.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		A5605CA723EA673F00E5BE7A = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +81,14 @@
 		A5605CB223EA673F00E5BE7A /* BookList */ = {
 			isa = PBXGroup;
 			children = (
+				A5605CC723EA679900E5BE7A /* data.json */,
 				A5605CB323EA673F00E5BE7A /* AppDelegate.swift */,
 				A5605CB523EA673F00E5BE7A /* SceneDelegate.swift */,
-				A5605CB723EA673F00E5BE7A /* ViewController.swift */,
+				A5605CC923EA67F100E5BE7A /* BookListVC.swift */,
+				A5605CCB23EA681000E5BE7A /* BookListCVC.swift */,
+				A5605CCD23EA683400E5BE7A /* BookInfoVC.swift */,
 				A5605CB923EA673F00E5BE7A /* Main.storyboard */,
+				A54EA7BF23EA75F9004C56A5 /* CustomUI */,
 				A5605CBC23EA674300E5BE7A /* Assets.xcassets */,
 				A5605CBE23EA674300E5BE7A /* LaunchScreen.storyboard */,
 				A5605CC123EA674300E5BE7A /* Info.plist */,
@@ -128,6 +157,7 @@
 				A5605CC023EA674300E5BE7A /* LaunchScreen.storyboard in Resources */,
 				A5605CBD23EA674300E5BE7A /* Assets.xcassets in Resources */,
 				A5605CBB23EA673F00E5BE7A /* Main.storyboard in Resources */,
+				A5605CC823EA679900E5BE7A /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5605CB823EA673F00E5BE7A /* ViewController.swift in Sources */,
+				A54EA7C423EA75F9004C56A5 /* CardView.swift in Sources */,
 				A5605CB423EA673F00E5BE7A /* AppDelegate.swift in Sources */,
+				A5605CCC23EA681000E5BE7A /* BookListCVC.swift in Sources */,
+				A54EA7C523EA75F9004C56A5 /* CustomButton.swift in Sources */,
 				A5605CB623EA673F00E5BE7A /* SceneDelegate.swift in Sources */,
+				A54EA7C723EA75F9004C56A5 /* CustomImage.swift in Sources */,
+				A5605CCA23EA67F100E5BE7A /* BookListVC.swift in Sources */,
+				A5605CCE23EA683400E5BE7A /* BookInfoVC.swift in Sources */,
+				A54EA7C623EA75F9004C56A5 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33XSSTPS64;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BookList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33XSSTPS64;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BookList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
